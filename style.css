@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding:0 ;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner{
+    background-color: rgba(0, 0, 0, 0.545);
+    
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+
+.logo{
+    font-size: 24px;
+    text-decoration: uppercase;
+    letter-spacing: 2px;
+
+    color: gold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #232323;
+
+    height: 15vh;
+    text-indent: 10px;
+}
+
+.nav-bar{
+    font-weight:bold;
+    list-style: none;
+    background-color: #232323cb;
+
+    overflow: hidden;
+    height: 30px;
+
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.nav-bar li{
+    display: inline;
+
+    color:  white;
+    
+    padding: 14px;
+    text-decoration: none;
+}
+
+.nav-bar li:hover{
+    border: 1px solid gold;
+    color: gold;
+}
+
+section{
+    padding: 10px 5px 0px;
+}
+
+
+.produtos{
+    padding: 60px 0px 0px;
+}
+
+.produtos h2{
+    color: gold;
+    background-color: #232323cb;
+
+    border-radius: 5px 5px 0px 0px;
+
+    font-family: 'Poppins', sans-serif;
+
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+
+.produtos ul{
+    list-style: none;
+    border-radius: 0px 0px 5px 5px;
+
+    display: flex;
+    padding: 50px 0px;
+
+    background-color: #232323;
+}
+
+.produtos li{
+    line-height: 20px;
+   
+    margin: auto;
+}
+
+
+.produtos img{
+    border-radius: 10px 10px 0px  0px;
+    max-width: 100.5px;
+
+    display: block;
+    margin: auto;
+}
+
+.produtos img:hover{
+    border: 2px solid gold;
+}
+
+.produtos h4{
+    background-color: white;
+    color: black;
+    border-radius: 0px 0px 10px 10px;
+
+    text-align: center;
+
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Novos h3{
+    border-radius: 0px 0px 10px 10px;
+}
+
+.links-contatos li{
+    font-size: 44px;
+    padding: 5px;
+
+    background-color: black;
+    border-radius: 50%;
+}
+
+.links-contatos li:hover{
+    border: 2px solid gold;
+}
+
+
+::-webkit-scrollbar-track{
+    background-color: black;
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+}
