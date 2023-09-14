@@ -96,7 +96,7 @@ section{
 
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 0px;
+    padding: 60px 0px;
 
     background-color: #232323;
 }
@@ -104,7 +104,7 @@ section{
 .produtos li{
     margin: auto;
     display: flex;
-    padding-top: 5px;
+    padding: 5px;
 }
 
 
