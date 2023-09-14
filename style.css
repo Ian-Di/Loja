@@ -55,6 +55,7 @@ nav {
 .nav-bar li{
     display: inline;
 
+
     color:  white;
     
     padding: 14px;
@@ -67,7 +68,7 @@ nav {
 }
 
 section{
-    padding: 10px 5px 0px;
+    padding: 20px 5px 0px;
 }
 
 
@@ -83,6 +84,8 @@ section{
 
     font-family: 'Poppins', sans-serif;
 
+    display: flex;
+    justify-content: center;
     padding: 10px;
     letter-spacing: 1.5px;
 }
@@ -92,40 +95,50 @@ section{
     border-radius: 0px 0px 5px 5px;
 
     display: flex;
-    padding: 50px 0px;
+    flex-wrap: wrap;
+    padding: 60px 0px;
 
     background-color: #232323;
 }
 
 .produtos li{
-    line-height: 20px;
-   
     margin: auto;
+    display: flex;
+    padding-top: 5px;
 }
 
 
 .produtos img{
-    border-radius: 10px 10px 0px  0px;
-    max-width: 100.5px;
+    border-radius: 10px 0px 0px  10px;
+    max-width: 110px;
 
     display: block;
     margin: auto;
 }
 
-.produtos img:hover{
+.produtos li:hover{
     border: 2px solid gold;
+    border-radius: 12.5px;
 }
 
 .produtos h4{
     background-color: white;
     color: black;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
 
-    text-align: center;
+    line-height: 20px;
 
 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.produtos p{
+    color: black;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 #Novos h3{
     border-radius: 0px 0px 10px 10px;
