@@ -96,7 +96,7 @@ h2{
 
     display: flex;
     flex-wrap: wrap;
-    padding: 60px 0px;
+    padding: 60px 10px;
 
     background-color: #232323;
 }
@@ -122,6 +122,8 @@ h2{
 }
 
 .produtos h4{
+    font-size: 12.5px;
+
     background-color: white;
     color: black;
     border-radius: 0px 10px 10px 0px;
@@ -158,12 +160,12 @@ h2{
 
 .links-contatos{
     list-style: none;
-    
+    border-radius: 0px 0px 5px 5px;
 
     display: flex;
     flex-wrap: wrap;
     
-    padding: 15px;
+    padding: 20px;
 
     background-color: #232323;
 }
