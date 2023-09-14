@@ -76,7 +76,7 @@ section{
     padding: 60px 0px 0px;
 }
 
-.produtos h2{
+h2{
     color: gold;
     background-color: #232323cb;
 
@@ -144,17 +144,38 @@ section{
     border-radius: 0px 0px 10px 10px;
 }
 
+.links-contatos h2{
+    color: gold;
+    background-color: #232323cb;
+
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+
+.links-contatos{
+    list-style: none;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 15px;
+
+    background-color: #232323;
+}
+
 .links-contatos li{
-    font-size: 44px;
+    margin: auto;
+    display: flex;
     padding: 5px;
 
-    background-color: black;
-    border-radius: 50%;
+    font-size: 45px;
 }
 
-.links-contatos li:hover{
-    border: 2px solid gold;
-}
 
 
 ::-webkit-scrollbar-track{
